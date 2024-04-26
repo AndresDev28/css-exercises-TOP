@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'lato-black';
+    src: url(/text-styles-TOP/lato/Lato-Black.ttf);
+}
+@font-face {
+    font-family: 'lato-regular';
+    src: url(/text-styles-TOP/lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'MaidenOrange';
+    src: url(/text-styles-TOP/fonts/MaidenOrange-Regular.ttf);
+}
+/* General setup */
+
+html {
+font-size: 10px;
+margin: 0;
+font-family: sans-serif;
+}
+
+body {
+width: 80%;
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'MaidenOrange';
+font-size: 3.2rem;
+}
+
+h2 {
+font-size: 2.4rem;
+font-family: 'MaidenOrange';
+}
+
+p {
+    font-family: 'lato-regular';
+    
+font-size: 1.4rem;
+line-height: 1.6;
+word-spacing: 0.6rem;
+}
